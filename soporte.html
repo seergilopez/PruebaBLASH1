@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"><!--OBLIGATORIO-->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"><!--OBLIGATORIO-->
+    <link rel="stylesheet" href="estilos.css"><!--VINCULACION #CSS-->
+    <title>BLASH</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container-container-flex">
+            <div class="main-header_container">
+
+                <!--MENU--> 
+                <div id="sidebar">
+                    <div class="toggle-btn">
+                        <label class="icon-menu fa-solid fa-bars" for="btn--menu"></label>
+                    </div>
+                    <input type="checkbox" id="btn--menu">
+                    <div class="container-menu">
+                        <div class="cont-menu">
+                            <nav>
+                                <a href="index.html">HOME</a>
+                                <a href="HOODIE.html">HOODIE</a>
+                                <a href="prueba.html">T-SHIRT</a>
+                                <a href="#">BOLSO</a>
+                                <a href="ABOUT.html">ABOUT</a>
+                                <a href="soporte.html">SUPPORT</a>
+                            </nav>
+                            <label for="btn--menu" class="fa-solid fa-x"></label>   
+                        </div>
+                        <label for="btn--busca" class="btn-search fa-solid fa-magnifying-glass">
+                            <input type="search" class="input-buscador-menu" placeholder="Buscar producto">
+                        </label>
+                    </div>
+                </div>
+                <!--<nav class="main-nav" id="main-nav">
+                    <ul class="menu">
+                        <li class="menu-item"><a href="" class="menu-link">HOME</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">ABOUT</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">FEATURES</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">SHOP</a></li>
+                        <li class="menu-item"><a href="" class="menu-link">CONTACT</a></li>
+                    </ul>
+                </nav>-->
+
+                <div>
+                    <a href="index.html" class="link-titulo-blash">
+                        <h1 class="main_title">BLASH</h1>
+                    </a>
+                </div>
+
+                <a href="" class="main-header_btn"><i class="fa-solid fa-bag-shopping"></i></a><!--CARRITO-->
+            </div>
+            
+            
+            
+            
+            <!--<hr class="barra-inicio" width="50%">
+
+            <div class="main-header_container">
+                <span class="main-header_txt">Need Help</span>
+                <p class="main-header_txt"><i class="fa-solid fa-phone"></i> Call 903 301 188</p>
+            </div>-->
+
+            <!--<div class="main-header_container2">
+                <input type="search" class="main-header_input" placeholder="Buscar productos"> BUSCADOR NO FUNCIONAL
+            </div>-->
+        </div> 
+        
+    </header>
+
+    <!--SECCION CONTACTO-->
+    
+    <section class="contact" id="contacto">
+
+        <div class="contact-form">
+            <h3>Contacto</h3>
+            <p class="correo-de-contacto">Correo de contaco: <span class="contacto-blash">contacto@blash.es</span></p>
+    
+            <form action="https://formsubmit.co/jessicaagudo@lapurisimavalencia.com" method="post">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre"  id="nombre">
+                    <br><br>
+                
+                    <label for="email">Tu Email</label>
+                <input type="email" name="email" id="email">
+                <br><br>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <br><br>
+                
+                <input type="submit" value="Enviar" class="send" >
+                <br><br><br><br><br><br>
+                <input type="hidden" name="_next" value="https://seergilopez.github.io/blash/soporte.html">
+                
+            </form>
+        </div>
+    
+    </section>
+
+<!--SECCION FOOTER-->
+
+<footer class="main-footer">
+    <div class="footer-section">
+        <h2 class="footer-title">About us</h2>
+        <p class="footer-txt">Lorem ipsum dolor sit amet consec
+            tetur adipisicing elit. Quas aut, blanditiis culpa 
+            nihil ullam soluta officia inventore suscipit cumque 
+            reiciendis accusantium alias nisi expedita nesciunt 
+            fugiat minus molestias et voluptatum.</p>
+    </div>
+
+    <div class="footer-section">
+        <h2 class="footer-title">Location</h2>
+        <p class="footer-txt">Enrique Granados 11 / 32, 
+        Valencia City</p>
+
+        <h2 class="footer-title">Contact</h2>
+        <p class="footer-txt">Telefono: +34 678 177 111</p>
+        <p class="footer-txt">Email: contacto@blash.es</p>
+    </div>
+
+    <div class="footer-section">
+        <h2 class="footer-title">Links</h2>
+        <a href="index.html" class="footer-link">HOME</a>
+        <a href="HOODIE.html" class="footer-link">HOODIE</a>
+        <a href="prueba.html" class="footer-link">T-SHIRT</a>
+        <a href="ABOUT.html" class="footer-link">ABOUT US</a>
+        <a href="soporte.html" class="footer-link">SUPPORT</a>
+        <p class="copy">© 2022 | Copyright | BLASH, Todos los derechos reservados</p>
+    </div>
+</footer>
+ 
+
+<script src="https://kit.fontawesome.com/99d7cefe11.js" crossorigin="anonymous"></script> <!--"LINK DE ICONOS"-->
+
+
+<script src="slider.js"></script>
+</body>
+</html>
